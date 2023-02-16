@@ -1,0 +1,67 @@
+.border {
+  border: 1px solid black;
+}
+
+.bg-color {
+  background-color: bisque;
+  background-size:cover
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+}
+
+.Links {
+  font-size: 18px;
+}
+
+.Link {
+  text-decoration: none;
+}
+a,
+.Link {
+  color: black;
+}
+
+.fa-instagram {
+  color: rgb(168, 29, 144);
+  color: radial-gradient(
+    circle,
+    rgba(168, 29, 144, 1) 45%,
+    rgba(181, 31, 61, 1) 100%
+  );
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-linkedin {
+  color: blue;
+}
+
+.login {
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-2-5d-business-office-simple-picture-image_929370.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  border-top-right-radius: 50px;
+  background-color: aliceblue;
+}
+
+.registerq {
+  text-decoration: none;
+}
+
+.registerq:hover {
+  color: black;
+  text-decoration: underline;
+}
