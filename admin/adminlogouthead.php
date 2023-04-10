@@ -1,5 +1,5 @@
 <?php
-    include('./connection.php');
+    include('../connection.php');
     session_start();
     if(!isset($_SESSION['username'])){
         echo "<script>";
@@ -28,7 +28,7 @@
         src="https://kit.fontawesome.com/0cb7e7055f.js"
         crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="./css/style1.css">
+        <link rel="stylesheet" href="../css/style1.css">
     </head>
     <body>
        <div class="navbar navbar-expand-lg bg-light">
@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <!-- <li class="nav-item"><a href="#" class = "nav-link me-lg-3">Home</a></li> -->
-                    <li class="nav-item"><a href="./AdminLogout.php" class = "nav-link me-lg-3 bg-danger log-out">Log Out</a></li>
+                    <li class="nav-item"><a href="../AdminLogout.php" class = "nav-link me-lg-3 bg-danger log-out">Log Out</a></li>
                 </ul>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <?php
     include('./connection.php');
     session_start();
-    if(!isset($_SESSION['uid'])){
+    if(!isset($_SESSION['username'])){
         echo "<script>";
         echo 'window.location.assign("http://localhost/prj1/Studentlogin.php")';
         echo "</script>";

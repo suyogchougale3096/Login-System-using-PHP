@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="./css/style1.css">
     </head>
     <body>
-       <div class="navbar navbar-expand-lg bg-light">
+       <div class="navbar navbar-expand-lg bg-light border">
         <div class="container-fluid">
             <a class="navbar-brand fs-3" href="http://localhost/prj1/Studentlogin.php">Shivam Solutions Projects</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

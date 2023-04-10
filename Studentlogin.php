@@ -1,7 +1,7 @@
 <?php
     include('./connection.php');
     session_start();
-    if(isset($_SESSION['uid'])){
+    if(isset($_SESSION['username'])){
         echo "<script>";
         echo 'window.location.assign("http://localhost/prj1/pages/studentpage.php")';
         echo "</script>";
@@ -20,13 +20,13 @@
                         $username = mysqli_real_escape_string($conn,$_POST['prn_number']);
                         $password1 = mysqli_real_escape_string($conn,$_POST['password1']);
                         
-                        $sql = "SELECT uid FROM studentlogin WHERE username = '{$username}' AND password1 = '{$password1}'";
+                        $sql = "SELECT username FROM studentlogin WHERE username = '{$username}' AND password1 = '{$password1}'";
                         $result = mysqli_query($conn,$sql) or die("Query Failed!");
 
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_assoc($result)){
                                 session_start();
-                                $_SESSION['uid'] = $row['uid'];
+                                $_SESSION['username'] = $row['username'];
                                 echo "<script>";
                                 echo 'window.location.assign("http://localhost/prj1/studentpage.php")';
                                 echo "</script>";

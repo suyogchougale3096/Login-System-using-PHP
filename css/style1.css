@@ -4,7 +4,7 @@
 
 .bg-color {
   background-color: bisque;
-  background-size:cover
+  background-size: cover;
 }
 
 .nav-link {
@@ -64,4 +64,21 @@ a,
 .registerq:hover {
   color: black;
   text-decoration: underline;
+}
+
+.operation {
+  font-size: 41px;
+}
+
+.operation-back {
+  background-image: url("https://png.pngtree.com/png-clipart/20220719/original/pngtree-system-administrator-background-with-data-center-symbols-isometric-vector-illustration-png-image_8366101.png");
+  height: 100%;
+}
+
+.log-out {
+  color: white;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
 }
